@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merienda', cursive;
+}
+
+.h-font{
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-bg{
+    background-color: rgb(12, 170, 12);
+    color: white;
+}
+.custom-bg:hover{
+    background-color: rgb(14, 134, 14);
+    color: white;
+}
+.custom-alert{
+    position: fixed;
+    top: 90px;
+    right: 25px;
+    z-index: 1;
+}
+.h-line{
+    width: 100px;
+    margin: 0 auto;
+    height: 1.7px;
+}

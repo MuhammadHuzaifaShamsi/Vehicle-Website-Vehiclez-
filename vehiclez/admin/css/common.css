@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merienda', cursive;
+}
+
+.h-font{
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-bg{
+    background-color: rgb(12, 170, 12);
+    color: white;
+}
+.custom-bg:hover{
+    background-color: rgb(14, 134, 14);
+    color: white;
+}
+
+.h-line{
+    width: 100px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+
+.custom-alert{
+    position: fixed;
+    top: 85px;
+    right: 25px;
+}
+
+.custom-alert-setting{
+    position: fixed;
+    top: 80px;
+    right: 25px;
+}
+
+        /* SCROLL BAR CUSTOMIZATION */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #888;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+#dashboard-menu{
+    position: fixed;
+    height: 100%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 991px) {
+    #dashboard-menu{
+        height: auto;
+        width: 100%;
+    }
+    #main-content{
+        margin-top: 60px;
+    }
+}
